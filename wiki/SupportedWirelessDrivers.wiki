@@ -9,3 +9,4 @@ The following wireless drivers have been tested or reported to work successfully
  * rtl8187
  * carl19170
  * ipw2000
+ * rt2800pci
