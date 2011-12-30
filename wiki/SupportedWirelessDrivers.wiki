@@ -2,13 +2,10 @@
 
 == Known Working ==
 
-The following wireless drivers have been tested successfully with Reaver:
+The following wireless drivers have been tested or reported to work successfully with Reaver:
 
+ * ath5k
  * ath9k
  * rtl8187
-
-== Known Not Working ==
-
-The following wireless drivers have been tested and are known to not work properly with Reaver:
-
- * carl9170
+ * carl19170
+ * ipw2000
