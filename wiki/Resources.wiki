@@ -1,0 +1,10 @@
+#summary Reaver videos and resources
+
+== Videos ==
+
+http://www.youtube.com/watch?v=5_gELLGJSY8
+
+
+== How Tos ==
+
+http://www.theprojectxblog.net/setting-up-reaver-the-wifi-protected-setup-attack-tool/
