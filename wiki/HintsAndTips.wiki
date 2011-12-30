@@ -1,0 +1,51 @@
+#summary Hints and tips on using Reaver
+
+== Prerequisites ==
+
+  # You must be running Linux
+  # You must have a wireless card capable of raw injection
+  # You must put your wireless card into monitor mode. This is most easily done using airmon-ng from the aircrack-ng tool suite.
+
+== Basic Usage ==
+
+First, make sure your wireless card is in monitor mode:
+
+{{{
+# airmon-ng start wlan0
+}}}
+
+To run Reaver, you must specify the BSSID of the target AP and the name of the monitor mode interface (usually 'mon0', *not* 'wlan0', although this will vary based on your wireless card/drivers):
+
+{{{
+# reaver -i mon0 -b 00:01:02:03:04:05
+}}}
+
+You will probably also want to use -vv to get verbose info about Reaver's progress:
+
+{{{
+# reaver -i mon0 -b 00:01:02:03:04:05 -vv
+}}}
+
+== Speeding Up the Attack ==
+
+By default, Reaver has a 1 second delay between pin attempts. You can disable this delay by adding '-d 0' on the command line, but some APs may not like it:
+
+{{{
+# reaver -i mon0 -b 00:01:02:03:04:05 -vv -d 0
+}}}
+
+== Errors and Warnings ==
+
+It is not uncommon to get a few errors or warnings during the attack, usually related to receive timeouts or out of order WPS messages. You may even get these warnings for a few minutes until the pin count starts incrementing again.
+
+However, if your pin count does not increment at all, or increments only occasionally with lots of errors/warnings, answer the following:
+
+  # Does the target AP support WPS and is WPS enabled?
+  # Did you put your wireless card into monitor mode?
+  # Did you specify the monitor mode interface with the -i option?
+ 
+If you still have problems, you can see if your problem is already listed in the project issue tracker. If not, create a new issue, and be sure to include:
+
+  # Linux distro, distro version, and architecture (32 bit or 64bit?)
+  # Wireless card and driver
+  # Pcap file demonstrating the issue, if possible
