@@ -12,3 +12,4 @@ The following wireless drivers have been tested or reported to work successfully
  * rt2800pci
  * b43
  * rt73usb
+ * iwlagn
