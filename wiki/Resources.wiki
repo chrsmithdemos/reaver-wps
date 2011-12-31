@@ -10,3 +10,5 @@ http://www.youtube.com/watch?v=5_gELLGJSY8
 == How Tos ==
 
 http://www.theprojectxblog.net/setting-up-reaver-the-wifi-protected-setup-attack-tool/
+
+http://blog.da5is.com/2011/12/reaver-and-wpscrackpy-on-linux-mint.html
