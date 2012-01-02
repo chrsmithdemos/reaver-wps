@@ -16,3 +16,7 @@ http://blog.da5is.com/2011/12/reaver-and-wpscrackpy-on-linux-mint.html
 == Resource Links ==
 
 http://www.tacnetsol.com/products
+
+== WPS Vulnerability Database ==
+
+https://docs.google.com/spreadsheet/ccc?key=0Ags-JmeLMFP2dFp2dkhJZGIxTTFkdFpEUDNSSHZEN3c
