@@ -4,7 +4,6 @@
 
 The following wireless drivers have been tested or reported to work successfully with Reaver:
 
- * ath5k
  * ath9k
  * rtl8187
  * carl19170
@@ -12,4 +11,10 @@ The following wireless drivers have been tested or reported to work successfully
  * rt2800pci
  * b43
  * rt73usb
+
+== Partially Supported ==
+
+The following wireless drivers have had mixed success, and may or may not work depending on your wireless card:
+
+ * ath5k
  * iwlagn
