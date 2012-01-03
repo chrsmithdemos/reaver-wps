@@ -43,6 +43,7 @@ However, if your pin count does not increment at all, or increments only occasio
   # Does the target AP support WPS and is WPS enabled?
   # Did you put your wireless card into monitor mode?
   # Did you specify the monitor mode interface with the -i option?
+  # Do you have a good signal from the AP?
  
 If you still have problems, you can see if your problem is already listed in the project issue tracker. If not, create a new issue, and be sure to include:
 
