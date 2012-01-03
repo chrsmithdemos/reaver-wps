@@ -1,0 +1,19 @@
+#summary Frequently Asked Questions
+
+== Why do I get timeouts/out of order warnings? ==
+
+This is usually due to interference or low signal strength. The AP's WPS registrar functionality could also be locked.
+
+== Reaver just tries the same pin over and over ==
+
+Make sure your target AP supports WPS. Run the walsh tool to scan for WPS-enabled APs and make sure your target AP is listed.
+
+== Help, Reaver can't associate with my AP! ==
+
+This could be due to interference or low signal strength. It could also be a driver issue, check the supported drivers wiki.
+
+== I get a warning "rate limiting detected", over and over again ==
+
+This earning message means that the AP has locked WPS pin attempts. This is usually only a temporary lock (around 5 minutes typically), but in some cases may be permanent (requires administrator intervention to unlock). 
+
+There is a known bug in Reaver that causes it to not detect when the AP has lifted the lock. Use the --ignore-locks option as a work around.
