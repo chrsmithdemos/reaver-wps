@@ -19,3 +19,9 @@ This could be due to interference or low signal strength. It could also be a dri
 This earning message means that the AP has locked WPS pin attempts. This is usually only a temporary lock (around 5 minutes typically), but in some cases may be permanent (requires administrator intervention to unlock). 
 
 There is a known bug in Reaver that causes it to not detect when the AP has lifted the lock. Use the --ignore-locks option as a work around.
+
+== Can I run more than one instance of Reaver against an AP? ==
+
+Technically yes, but this is ultimately a flawed approach to increasing attack speed. The primary limitation on attack speed is the low resources (memory, CPU, etc) of the AP, so having two simultaneous attackers will result in twice the CPU load.
+
+It is better to use Reaver's advanced options to help speed up the attack.
