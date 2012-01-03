@@ -4,6 +4,8 @@
 
 This is usually due to interference or low signal strength. The AP's WPS registrar functionality could also be locked.
 
+You may get these warnings randomly during an attack, and they may take a few minutes to clear up. This is due to the AP's WPS state machine and Reaver's getting out of sync; the AP's state machine may not be reset for ~2 minutes. After this, things should start working again.
+
 == Reaver just tries the same pin over and over ==
 
 Make sure your target AP supports WPS. Run the walsh tool to scan for WPS-enabled APs and make sure your target AP is listed.
