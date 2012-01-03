@@ -22,6 +22,8 @@ The following wireless drivers have had mixed success, and may or may not work d
 
 == Not Supported ==
 
-The following wireless drivers have been tested or reported to not work properly with Reaver:
+The following wireless drivers/cards have been tested or reported to not work properly with Reaver:
 
  * iwl4965
+ * RT3070L
+ * Netgear WG111v3
