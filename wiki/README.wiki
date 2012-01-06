@@ -40,7 +40,7 @@
 
 == INSTALLATION ==
 
-	Reaver is only supported on the Linux platform, requires the libpcap library, and can be built and 
+	Reaver is only supported on the Linux platform, requires the libpcap and libsqlite3 libraries, and can be built and 
 	installed by running:
 
 {{{
