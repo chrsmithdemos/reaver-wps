@@ -12,6 +12,8 @@ http://www.simplywifi.co/blog/2012/1/4/is-my-wireless-router-running-wps.html
 
 http://arstechnica.com/business/news/2012/01/hands-on-hacking-wifi-protected-setup-with-reaver.ars
 
+http://lifehacker.com/5873407/how-to-crack-a-wi+fi-networks-wpa-password-with-reaver
+
 http://www.theprojectxblog.net/setting-up-reaver-the-wifi-protected-setup-attack-tool/
 
 http://blog.da5is.com/2011/12/reaver-and-wpscrackpy-on-linux-mint.html
