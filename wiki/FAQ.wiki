@@ -6,7 +6,11 @@ This is usually due to interference or low signal strength. The AP's WPS registr
 
 You may get these warnings randomly during an attack, and they may take a few minutes to clear up. This is due to the AP's WPS state machine and Reaver's getting out of sync; the AP's state machine may not be reset for ~2 minutes. After this, things should start working again.
 
-== WEP cracking works fine against APs with low signal strengths, why does Reaver have problems? ==
+== Why doesn't MAC spoofing work? ==
+
+It does, but you have to make sure you are spoofing the MAC on the physical card's interface. See the [http://code.google.com/p/reaver-wps/wiki/HintsAndTips wiki].
+
+== WEP cracking works fine with low signal strengths, why does Reaver have problems? ==
 
 WEP cracking usually entails re-transmitting captured packets in order to generate more responses from the AP and therefore collect IVs faster. In this situation, it does not matter if some packets get dropped or corrupted as you are simply looking for a quantity of packets.
 
