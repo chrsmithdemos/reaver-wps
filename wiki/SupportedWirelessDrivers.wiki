@@ -17,7 +17,7 @@ The following wireless drivers have had mixed success, and may or may not work d
 
  * ath5k
  * iwlagn
- * rtl2800usb
+ * rtl2800usb (using the latest compat-wireless drivers has fixed many user's problems, hint hint...)
  * b43
 
 == Not Supported ==
