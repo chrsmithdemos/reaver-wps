@@ -5,10 +5,9 @@
 Reaver Pro is a compact embedded device customized for Reaver attacks. No more driver compatibility issues. Plug Reaver Pro into your Windows, OS X, or Linux machine and It just works!
 
 Reaver Pro Features:
-
-New easy to use GUI
-Optimized PIN sequencing using Markov Chains based on on PINs from hundreds of actual WPS-enabled devices
-Automatically connect to the target and send the PIN and PSK to an email address you specify
+  * New easy to use GUI
+  * Optimized PIN sequencing using Markov Chains based on on PINs from hundreds of actual WPS-enabled devices
+  * Automatically connect to the target and send the PIN and PSK to an email address you specify
 
 *[http://www.reaverpro.com Buy the NEW Reaver Pro!!!]*
 
