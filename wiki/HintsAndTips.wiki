@@ -1,6 +1,6 @@
 #summary Hints and tips on using Reaver
 
-== Reaver Pro ==
+== Reaver Pro Hardware ==
 
 Reaver Pro is a compact embedded device customized for Reaver attacks. No more driver compatibility issues. Plug Reaver Pro into your Windows, OS X, or Linux machine and It just works!
 
@@ -9,9 +9,9 @@ Reaver Pro Features:
   * Optimized PIN sequencing using Markov Chains based on on PINs from hundreds of actual WPS-enabled devices
   * Automatically connect to the target and send the PIN and PSK to an email address you specify
 
-*[http://www.reaverpro.com Buy the NEW Reaver Pro!!!]*
+*[http://www.reaverpro.com Buy the NEW Reaver Pro. Now shipping WORLDWIDE!!!]*
 
-== Prerequisites ==
+== Prerequisites for Open Source Reaver ==
 
   # You must be running Linux
   # You must have a wireless card capable of raw injection
