@@ -9,7 +9,7 @@ Reaver Pro Features:
   * Optimized PIN sequencing using Markov Chains based on on PINs from hundreds of actual WPS-enabled devices
   * Automatically connect to the target and send the PIN and PSK to an email address you specify
 
-*[http://www.reaverpro.com Buy the NEW Reaver Pro!!!]*
+*[http://www.reaversystems.com Buy the NEW Reaver Pro!!!]*
 
 == Why do I get timeouts/out of order warnings? ==
 
